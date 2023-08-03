@@ -1,0 +1,70 @@
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  border: 2px solid white;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.stats .stat-item {
+  margin: 0 10px;
+}
+
+.stats span {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.stats span#ballSpeed {
+  font-weight: bold;
+}
+
+a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: #f1f1f1;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
